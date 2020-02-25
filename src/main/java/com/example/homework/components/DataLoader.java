@@ -30,7 +30,7 @@ public class DataLoader implements ApplicationRunner {
 
         User user = new User("siggy");
         userRepo.save(user);
-        
+
         Folder folder = new Folder("Codeclan", user);
         folderRepo.save(folder);
 
